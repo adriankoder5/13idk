@@ -14,14 +14,14 @@ function simpleCalc(num1,num2){
     return(summer);
 }
 simpleCalc(2,4)
-console.log('returnTest',simpleCalc(6,4));
+//console.log('returnTest',simpleCalc(6,4));
 
+//person info knapp
 const persShowVar = document.querySelector("#persShow");
 console.log(persShowVar);
 persShowVar.addEventListener("click", persInf);
 
+//simpel calc knapp
 const calcShowVar = document.querySelector("#calcShow");
 console.log(calcShowVar);
-//calcShowVar.addEventListener("click", simpleCalc(3, 4));
-
 calcShowVar.addEventListener("click", function (){simpleCalc(3,4)});
